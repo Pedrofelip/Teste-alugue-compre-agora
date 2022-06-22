@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Squada+One&family=Tomorrow:wght@400;700&display=swap');
+.wrapper {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho {
+    background-color: #053C5E;
+    width: 100%;
+    height: 105px;
+}
+
+.logo_cabecalho {
+    width: 7%;
+    height: 7%;
+}
+
+.botoes_cabecalho {
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.botao_cabecalho {
+    font-family: 'Squada One', cursive;
+    font-size: 27px;
+    text-transform: uppercase;
+    padding: 15px 10px;
+}
+
+.botao_cabecalho:hover {
+    transition: 0.25s;
+    transform: scale(1.1);
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.botao_cabecalho:active{
+    transition: 0.15s;
+    transform: scale(1.01);
+}
